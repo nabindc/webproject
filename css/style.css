@@ -1,0 +1,86 @@
+/*all the css properties style copyright to CreativeNb || www.nabindc.com.np*/
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../img/timeline.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+ul li{
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+}
+ul li a:hover{
+  background-color: #4CAF50;
+  color: #000000;
+}
+
+ul li a.active{
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.logo1 img{
+  float:left;
+  width:150px;
+}
+.head1{
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.title h1{
+  color: #ffffff;
+  font-size: 60px;
+}
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.btn1{
+  border: 1.5px solid #ffffff;
+  padding: 10px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+.btn1:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.footer p{
+  background-color: #dce7f7;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

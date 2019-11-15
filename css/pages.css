@@ -1,0 +1,135 @@
+/*all the css properties style copyright to CreativeNb || www.nabindc.com.np*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+ul li{
+  display: inline-block;
+}
+
+ul li a {
+  color: blue;
+  padding: 5px 20px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.4s ease;
+}
+ul li a:hover{
+  background-color: #4CAF50;
+  color: #000000;
+}
+
+ul li a.active{
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.logo1 img{
+  float:left;
+  width:150px;
+}
+
+.head1{
+  max-width: 1200px;
+  margin: auto;
+}
+
+section{
+  padding-top: 120px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-height: 100%;
+
+
+}
+.content{
+  background-position: absolute;
+}
+
+.content h1{
+  color: red;
+  float: center;
+}
+
+.content img{
+  height:auto;
+  width: 150px;
+  float: left;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+.content h2{
+  float: center;
+  padding-top: 80px;
+}
+
+table{
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border: 1px solid;
+  float:center;
+  width:49%;
+  background:#a6c1ed;
+}
+
+table tr td{
+  background-color: grey;
+  color: white;
+  border: 1px dashed;
+  padding: 5px 5px;
+}
+
+.social{
+  margin-top: 10px;
+  padding: 10px 10px;
+  width:49%;
+  background:#b5888c;
+}
+.content h4{
+  text-decoration: underline;
+  padding-top: 10px;
+  color: Green;
+}
+
+.box {
+  margin: 10px 10px;
+  float: left;
+  width: 250px;
+  height:150px;
+}
+
+.box img {
+  width: 200px;
+  height: auto;
+}
+
+ .box p{
+  float: left;
+  text-align: center;
+}
+
+.footer{
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: -100px;
+  clear: both;
+}
+.footer p{
+  background-color: #dce7f7;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
